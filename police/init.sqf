@@ -1,6 +1,6 @@
 params["_unit"];
 waitUntil {!(isNull (findDisplay 46))};
-_myCuteLittleEvent = (findDisplay 46) displayAddEventHandler ["KeyDown", "
+_myEvent = (findDisplay 46) displayAddEventHandler ["KeyDown", "
 
 	_keyDown = _this select 1; 
     hint str(_keyDown);

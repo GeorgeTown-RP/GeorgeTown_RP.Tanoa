@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=282;
+		nextID=283;
 	};
 	class MarkerIDProvider
 	{
@@ -46,13 +46,14 @@ addons[]=
 	"A3_Soft_F_Exp_Offroad_02",
 	"A3_Soft_F_MRAP_01",
 	"A3_Soft_F_Offroad_01",
-	"A3_Structures_F_Items_Tools"
+	"A3_Structures_F_Items_Tools",
+	"A3_Modules_F_Curator_Misc"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=15;
 		class Item0
 		{
 			className="A3_Rocks_F_Exp";
@@ -151,6 +152,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item14
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
 	};
 };
 randomSeed=6746827;
@@ -182,7 +190,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=99;
+		items=100;
 		class Item0
 		{
 			dataType="Object";
@@ -2380,6 +2388,20 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item99
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5492.231,-0.00037002563,10506.229};
+			};
+			areaSize[]={1500,0,1500};
+			areaIsRectangle=1;
+			flags=1;
+			id=282;
+			type="ModuleCoverMap_F";
+			atlOffset=13.775999;
 		};
 	};
 };
