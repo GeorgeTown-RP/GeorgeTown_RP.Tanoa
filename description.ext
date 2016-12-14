@@ -1,1 +1,2 @@
- #include <police\config.hpp>
+#include <functions\config.hpp>
+#include <police\gui\config.hpp>
