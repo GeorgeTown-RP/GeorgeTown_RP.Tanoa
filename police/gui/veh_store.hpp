@@ -12,7 +12,7 @@
 		//	type = CT_BUTTON;
 			text = "NEXT";
 			//action = "[] execVM 'police\fn_vehSelect.sqf';";
-			action = "[] spawn fn_vehSelect;";
+			action = "[] spawn pAx_fnc_vehSelect;";
 			x = 0.716563 * safezoneW + safezoneX;
 			y = 0.5 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
@@ -31,7 +31,7 @@
 		{
 			text = "BUY";
 			idc = 1602;
-			action = "closeDialog 0; [] execVM 'police\fn_buyVeh.sqf';";
+			action = "closeDialog 0; [] spawn pAx_fnc_buyVeh;";
 			x = 0.35 * safezoneW + safezoneX;
 			y = 0.9 * safezoneH + safezoneY;
 			w = 0.09125 * safezoneW;
